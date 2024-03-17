@@ -9,16 +9,16 @@ function App() {
 
   return (
     <>   
-    <div className=' bg-slate-800  grid grid-cols-3 rounded-2xl border-black border-2 sm:grid-flow-col'> 
-        <Button name="red"/>   
-        <Button name="blue"/>     
-        <Button name="green"/>   
-        <Button name="yellow"/>   
-        <Button name="black"/>  
-        <Button name="purple"/>
-        <Button name="pink"/> 
-        <Button name="brown"/>
-        <Button name="orange"/>
+    <div className=' bg-slate-500 grid grid-cols-3 rounded-3xl border-black border-2 sm:grid-rows-2  sm:grid-flow-col md:grid-rows-1 md:grid-flow-col'> 
+        <Button name="Red"/>   
+        <Button name="Blue"/>     
+        <Button name="Green"/>   
+        <Button name="Yellow"/>   
+        <Button name="Black"/>  
+        <Button name="Purple"/>
+        <Button name="Pink"/> 
+        <Button name="Brown"/>
+        <Button name="Orange"/>
      </div>   
     </>
   )
