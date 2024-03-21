@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 
 
 
@@ -20,7 +20,6 @@ function Search() {
     if (charAllowed == true) {
       str += char;
     }
-
     for (let i = 0; i < Length; i++) {
       let ind = Math.floor(Math.random() * str.length)
       pass += str[ind]
@@ -33,16 +32,21 @@ function Search() {
   useEffect(() => {
     generatePassword()
   }, [Length, numAllowed, charAllowed, generatePassword])
+
+  const copytoclipBoard=()=>{
+    window.navigator.clipboard.writeText(password);
+    alert("password Copied Successfully!!")
+  }
   return (
     <div className=" rounded-2xl bg-slate-600 m-7 p-2 mx-auto  w-2/4 text-center ">
       <h1 className="text-center mb-4 text-red-500 font-bold text-2xl">Password Generator</h1>
       <div className="grid grid-row-1 mb-4 grid-cols-3">
         <input className= " text-black  border-b-black border-l-black border-t-black border-2 col-span-2 rounded-s  " type="text" value={ "  "+password} readOnly />
-        <button className=" bg-blue-600   border-black  border-2 rounded-e">Copy</button>
+        <button className=" bg-blue-600   border-black  border-2 rounded-e" onClick={copytoclipBoard}>Copy</button>
       </div>
       <div className="grid mb-4 grid-row-3 lg:grid-rows-1 lg:grid-cols-3">
         <div >
-          <input type="range" min={8} max={100} onChange={(e) => { setLength(e.target.value) }} />
+          <input type="range" min={8} max={100}  onChange={(e) => { setLength(e.target.value) }} />
           <label htmlFor="Length text-xl">length :   </label>
           <label className="text-lime-300 text-xl"> {Length}</label>
         </div>
