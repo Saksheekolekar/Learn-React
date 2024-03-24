@@ -26,3 +26,22 @@ dist-ssr
 
 *node_modules*
 *npm*
+LetsWrite/public/vite.svg
+LetsWrite/.env
+LetsWrite/.gitignore
+LetsWrite/package-lock.json
+LetsWrite/package.json
+LetsWrite/postcss.config.js
+LetsWrite/tailwind.config.js
+LetsWrite/vite.config.js
+project5/src/App.jsx
+project5/tailwind.config.js
+.gitignore
+LetsWrite/src/assets/react.svg
+LetsWrite/.eslintrc.cjs
+project5/src/App.jsx
+project5/tailwind.config.js
+.gitignore
+project5/src/App.jsx
+project5/tailwind.config.js
+.gitignore

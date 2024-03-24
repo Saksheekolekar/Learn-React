@@ -38,7 +38,7 @@ function Search() {
     alert("password Copied Successfully!!")
   }
   return (
-    <div className=" rounded-2xl bg-slate-600 m-7 p-2 mx-auto  w-2/4 text-center ">
+    <div className=" rounded-2xl shadow-2xl bg-slate-600 m-7 p-2 mx-auto  w-2/4 text-center ">
       <h1 className="text-center mb-4 text-red-500 font-bold text-2xl">Password Generator</h1>
       <div className="grid grid-row-1 mb-4 grid-cols-3">
         <input className= " text-black  border-b-black border-l-black border-t-black border-2 col-span-2 rounded-s  " type="text" value={ "  "+password} readOnly />

@@ -1,0 +1,13 @@
+import { useState } from "react"
+
+
+function currencyConverter({currency}){
+const[data,setdata]=useState("")
+fetch("")
+.then((res)=>{
+    res.json();
+}).then(res=>setdata(res[currency]))
+ return data
+}
+
+export default currencyConverter;
