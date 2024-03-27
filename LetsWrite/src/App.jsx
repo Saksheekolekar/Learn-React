@@ -9,7 +9,7 @@ function App() {
   console.log(conf);
   return (
    <>
-   <h1>BlOG APP WITH APP WRITES
+   <h1 className='text-2xl text-center font-serif m-4 bg-slate-600'>BlOG APP WITH APP WRITES
     </h1></>
   )
 }

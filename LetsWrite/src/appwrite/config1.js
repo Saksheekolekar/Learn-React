@@ -10,7 +10,7 @@ export class Service {
             .setEndPoint(conf.appwriteUrl)
             .setProject(conf.appwriteProjectId);
         this.databases = new Databases(this.client);
-        this.storage = new this.Storage(this.client);
+        this.storage = new Storage(this.client);
     }
 
     async createPost({ title, slug, content, featuredImage, status, userId }) {
