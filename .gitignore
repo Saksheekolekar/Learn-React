@@ -45,3 +45,7 @@ project5/tailwind.config.js
 project5/src/App.jsx
 project5/tailwind.config.js
 .gitignore
+project06/package-lock.json
+project06/vite.config.js
+.gitignore
+package-lock.json
