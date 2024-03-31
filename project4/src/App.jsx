@@ -43,7 +43,8 @@ function App() {
            selectCurrency={From}
            onAmountChange={(amount) => setAmount(amount)}
             />
-          <button onClick={swap}  type="button" className='text-center text-white bg-blue-700 border-white rounded-md border-2 m-1 p-2 size-auto'> Swap</button>
+          <button onClick={swap}  type="button
+          " className='text-center text-white bg-blue-700 border-white rounded-md border-2 m-1 p-2 size-auto'> Swap</button>
          
           <InputBox   label="To"
                             amount={convertedAmount}
