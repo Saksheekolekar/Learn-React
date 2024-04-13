@@ -3,19 +3,20 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
-        <footer className="bg-white border-y">
+        <footer className=" bg-slate-500  sm:mt-12 bg-opacity-15 border-y">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                             <img
-                                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-                                className="mr-3 h-16"
+                               src="./dianno.jpg"
+                                className="mr-3 h-16 rounded-3xl"
                                 alt="Logo"
                             />
                         </Link>
+                        
                     </div>
-                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div className="grid grid-cols-3 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
@@ -51,7 +52,7 @@ export default function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div>
+                        <div className=''>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
@@ -72,12 +73,12 @@ export default function Footer() {
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2024
-                        <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                           SakshiKolekar
+                        <a href="https://saksheekolekar.com/" className="hover:underline">
+                            SakshiKolekar
                         </a>
                         . All Rights Reserved.
                     </span>
-                    <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
+                    <div className="flex mt-4 space-x-5  sm:justify-center sm:mt-0">
                         <Link to="#" className="text-gray-500 hover:text-gray-900">
                             <svg
                                 className="w-4 h-4"
@@ -138,7 +139,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">GitHub account</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        {/* <Link to="#" className="text-gray-500">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -153,7 +154,7 @@ export default function Footer() {
                                 />
                             </svg>
                             <span className="sr-only">Instragram account</span>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>
