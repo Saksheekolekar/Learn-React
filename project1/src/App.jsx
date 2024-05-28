@@ -10,9 +10,7 @@ function App() {
      { //  counter=counter+1
     set(counter+1)
     set(counter=>counter+1)
-    set(counter=>counter+1)
-    set(counter=>counter+1)
-    set(counter=>counter+1)
+    
    }
   else{
     alert("counter has limit of 0 to 20")

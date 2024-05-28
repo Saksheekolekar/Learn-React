@@ -42,8 +42,7 @@
           return (
            
             <>
-             <Card newobj={firstcard} />
-             <Card newobj={secondcard} />
+              
             </>
           )
 

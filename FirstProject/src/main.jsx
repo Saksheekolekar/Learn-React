@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App1 from './App1.jsx'
+import App from './App.jsx'
 /* 
 function hello() {
   return(<h2>lets welcome to page!!</h2>)
@@ -28,5 +29,7 @@ const reactdata={ //its custom react object so react dom is not able understand 
  )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-<App1/>
+<><App/>
+<hr/>
+</>
 ) 
