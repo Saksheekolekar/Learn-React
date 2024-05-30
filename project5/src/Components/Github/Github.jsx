@@ -14,12 +14,12 @@ function Github() {
     }, [])
 
     return (
-        <><div className='grid md:grid-cols-2 rounded-xl m-4 bg-black text-white p-7'>
-            <div className='w-1/3'>
-                <img className='rounded-full p-2  border-cyan-600 border-2' src={data.avatar_url} alt="Git picture" width={300} />
+        <><div className='bg-transparent rounded-xl m-4 bg-black text-white p-7'>
+            <div className=' '>
+                <img className=' rounded-full p-auto w-au m-auto grid grid-rows-2  border-cyan-600 border-2' src={data.avatar_url} alt="Git picture" width={300} />
             </div>
             <div className='text-center '>
-                <h1 className='text-gray-600 text-5xl font-bold'>{data.name}</h1>
+                <h1 className='text-gray-950 text-5xl font-bold'>{data.name}</h1>
                 <p className='text-xl'>{data.bio}</p>
                 <br />
           

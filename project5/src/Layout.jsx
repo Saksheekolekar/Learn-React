@@ -10,31 +10,36 @@ import CardContainer from "./Components/CardContainers/CardContainers";
 
 const cardsData = [
     {
-      image: 'https://via.placeholder.com/150',
-      description: 'Project 1',
-      technologies: ['React', 'Tailwind CSS'],
+      image: './p.jpg  ',
+      name:"Blogging Website",
+      description: 'Blogging Application for the exploring new Aeticles.',
+      technologies: ['React.js', 'Tailwind CSS','Appwrite'],
       link: 'https://github.com/project1'
     },
     {
-      image: 'https://via.placeholder.com/150',
-      description: 'Project 2',
-      technologies: ['React', 'Tailwind CSS'],
+      image: './bs.jpg',
+      name:"Olpx",
+      description: 'Educational Project,  functionality as  user can sell or buy products online. ',
+      technologies: ['Java' ,'Jsp','Css','Js'],
       link: 'https://github.com/project2'
     },
     {
-      image: 'https://via.placeholder.com/150',
-      description: 'Project 3',
+      image: './wp.webp',
+      name:"What's App Clone",
+      description: "practice project.clone of very famous chat application.",
       technologies: ['React', 'Tailwind CSS'],
       link: 'https://github.com/project3'
     },{
-        image: 'https://via.placeholder.com/150',
-        description: 'Project 5',
+        image: './amazone.png',
+        name:"Amazon Clone",
+        description: 'E-Commerce website with variety of products.',
         technologies: ['React', 'Tailwind CSS'],
         link: 'https://github.com/project2'
       },
       {
-        image: 'https://via.placeholder.com/150',
-        description: 'Project 6',
+        image: './UTUBE.jpg',
+        name:"YouTube Clone",
+        description: 'Social Media platform for Learning and Earning Purpose',
         technologies: ['React', 'Tailwind CSS'],
         link: 'https://github.com/project3'
       },

@@ -5,18 +5,18 @@ import CardContainers from '../CardContainers/CardContainers';
 export default function Footer() {
     return (
         <footer className=" bg-slate-300  bg-opacity-15 border-y">
+            
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between ">
                     <div className="  mb-6 md:mb-0">
-                        <Link className="flex items-center">
+                        <Link className="flex items-center ">
                             <img
                                src="./dianno.jpg"
-                                className="mr-3 h-16 rounded-3xl"
+                                className="mr-3 h-16  rounded-3xl"
                                 alt="Logo"
                             />
-                            <h1 className='font-oswald bg-transparent rounded text-2xl text-black h-auto w-auto shadow-sm bg-none'> 🎯Sakshee Kolekar !</h1>
+                            <h1 className='font-oswald bg-transparent rounded text-2xl text-black h-auto w-full  shadow-sm bg-none'> 🎯Sakshee Kolekar !</h1>
                         </Link>
-                        
                     </div>
                     <div className="grid grid-cols-2  bg-center text-center row-2 gap-10    ">
                         {/* <div className="border-r-2  border-dashed ">
@@ -59,33 +59,33 @@ export default function Footer() {
                             <ul className="text-gray-600 dark:text-slate-800 font-oswald">
                                 <li className="mb-4">
                                     <Link to="#" className="hover:underline">
-                                      Color Changing
+                                      Tic-Tack-toe Game
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="#" className="hover:underline">
-                                        Terms &amp; Conditions
+                                        My Portfolio website
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                         <div className=" ">
-                            <h2 className="mb-6 text-sm dark:text-white font-Embed_code text-slate-800 underline uppercase">Projects</h2>
+                            <h2 className="mb-6 text-sm dark:text-white font-Embed_code text-slate-800 underline uppercase">Certifications</h2>
                             <ul className="text-gray-600 dark:text-slate-800 font-oswald">
                                 <li className="mb-4">
                                     <Link to="/" className="hover:underline">
-                                        Home
+                                        Java-Full Stack
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/about" className="hover:underline">
-                                        About
+                                        Internship
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    
+                        
                 </div>
                 {/* <hr className="my-6 border-gray-200  lg:my-8" /> */}
                 {/* <div className="sm:flex sm:items-center sm:justify-between">

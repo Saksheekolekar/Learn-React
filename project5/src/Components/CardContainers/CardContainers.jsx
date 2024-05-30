@@ -23,11 +23,12 @@ const CardContainer = ({ cards }) => {
   }, []);
 
   return (
-    <div className="relative bg-slate-600 mt-4 bg-opacity-35">
-        <h1 className='text-2xl text-center font-Embed_code dark:bg-transparent dark:text-slate-50  bg-transparent bg-opacity-50 '> My Projects </h1>
+    <div className="relative  bg-slate-600 mt-4  dark:bg-opacity-100 bg-opacity-30">
+        <h1 className='text-2xl text-center font-Embed_code dark:bg-transparent underline dark:text-slate-50  bg-transparent bg-opacity-50 '> Some Highlight Projects</h1>
+
       <div
         ref={containerRef}
-        className="flex lg:mx-64 p-10 overflow-x-auto hide-scrollbar p-4 space-x-10"
+        className="flex lg:mx-64 p-8 overflow-x-auto hide-scrollbar  space-x-14"
       >
         {cards.map((card, index) => (
           <div
