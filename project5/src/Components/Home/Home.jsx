@@ -9,7 +9,7 @@ export default function Home() {
                 <div className=" sm:rounded-2xl text-center  font-mono inset-0  text-6xl sm:pt-10 h-full ">
                     
                     <h1 className=" text-4xl  pt-4 pb-4 backdrop-brightness-150   text-stone-950 drop-shadow-xl  ">hey!<br/>it's,</h1>
-                    <h1 className='text-slate-950 font-Embed_code mb-0 pb-4 backdrop-brightness-150  '>Sakshi Kolekar !!</h1>
+                    <h1 className='text-slate-950  backdrop-filter font-mono font-bold mb-0 pb-4 backdrop-brightness-150  '>Sakshi Kolekar !!</h1>
                     <h1 className=" text-4xl   backdrop-brightness-150  pb-6  text-black ">Welcome To ,My Portfolio Website!</h1>
                     {/* <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" /> */}
                 </div>

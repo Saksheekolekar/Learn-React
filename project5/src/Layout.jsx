@@ -2,7 +2,6 @@
 import React from "react";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
-import Home from "./Components/Home/Home";
 import { Outlet } from "react-router-dom";
 import CardContainer from "./Components/CardContainers/CardContainers";
 
@@ -17,7 +16,7 @@ const cardsData = [
       link: 'https://github.com/project1'
     },
     {
-      image: './bs.jpg',
+      image: './pack.jpg',
       name:"Olpx",
       description: 'Educational Project,  functionality as  user can sell or buy products online. ',
       technologies: ['Java' ,'Jsp','Css','Js'],
