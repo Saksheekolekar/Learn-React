@@ -26,7 +26,7 @@ dist-ssr
 
 *node_modules*
 *npm*
-LetsWrite/public/vite.svg
+LetsWrite/public
 LetsWrite/.env
 LetsWrite/.gitignore
 LetsWrite/package-lock.json

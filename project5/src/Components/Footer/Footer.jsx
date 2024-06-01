@@ -8,13 +8,16 @@ export default function Footer() {
 
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between ">
+
+
                     <div className="  mb-6 md:mb-0">
                         <Link className="flex items-center ">
                             <img
                                 src="./dianno.jpg"
                                 className="mr-3 h-16  rounded-3xl"
                                 alt="Logo"
-                            />
+            
+            />
                             <h1 className='font-oswald bg-transparent rounded text-2xl text-black h-auto w-full  shadow-sm bg-none'> 🎯Sakshee Kolekar !</h1>
                         </Link>
                     </div>
@@ -63,7 +66,7 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="#" className="hover:underline">
+                                    <Link to="https://github.com/Saksheekolekar/portfolio" className="hover:underline">
                                         My Portfolio website
                                     </Link>
                                 </li>
@@ -85,75 +88,81 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div className="  sm:m-5  col-span-2 mt-3 md:flex-row-reverse flex-row items-star  grid grid-cols-5 space-x-5">
-                    {/* LeetCode */}
-                    <Link to="#" className="text-gray-500 dark:text-gray-800  hover:text-yellow-50 p-4">
-                        <svg
-                            className="w-4 h-4"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 8 19"
-                        >
-                            <path
-                                fill-rule="evenodd"
-                                d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                                clip-rule="evenodd"
-                            />
-                        </svg>
-                        <span className="sr-only">LeetCode page</span>
-                    </Link>
-                    {/* Discod */}
-                    <Link to="" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
-                        <svg
-                            className="w-4 h-4"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 21 16"
-                        >
-                            <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
-                        </svg>
-                        <span className="sr-only">Discord community</span>
-                    </Link>
-                    {/* twitter */}
-                    <Link to="https://x.com/SakshiKole72466?t=mmgrg-m_ngdRJtaUlrsorg&s=09" className="text-gray-800 dark:text-gray-900 p-4 hover:text-yellow-50">
-                        <svg xmlns="http://www.w3.org/2000/svg"   aria-hidden="true" fill="currentColor"  className="w-4 h-4"  viewBox="0 0 50 50">
-                            <path d="M 5.9199219 6 L 20.582031 27.375 L 6.2304688 44 L 9.4101562 44 L 21.986328 29.421875 L 31.986328 44 L 44 44 L 28.681641 21.669922 L 42.199219 6 L 39.029297 6 L 27.275391 19.617188 L 17.933594 6 L 5.9199219 6 z M 9.7167969 8 L 16.880859 8 L 40.203125 42 L 33.039062 42 L 9.7167969 8 z"></path>
-                        </svg>
-                        <span className="sr-only">Twitter page</span>
-                    </Link>
-                    {/* Github */}
-                    <Link to="https://x.com/SakshiKole72466?t=mmgrg-m_ngdRJtaUlrsorg&s=09" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
-                        <svg
-                            className="w-4 h-4"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                        >
-                            <path
-                                fill-rule="evenodd"
-                                d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
-                                clip-rule="evenodd"
-                            />
-                        </svg>
-                        <span className="sr-only">GitHub account</span>
-                    </Link>
-                    {/* Linkedin */}
-                    <Link to="https://www.linkedin.com/in/sakshi-kolekar-102511254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
-                        <svg
-                            className="w-4 h-4"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.233c-.966 0-1.75-.785-1.75-1.75s.784-1.75 1.75-1.75 1.75.785 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.233h-3v-5.5c0-1.379-.021-3.154-1.923-3.154-1.924 0-2.221 1.501-2.221 3.05v5.604h-3v-10h2.88v1.366h.041c.401-.762 1.377-1.564 2.834-1.564 3.031 0 3.591 1.995 3.591 4.59v5.608z" />
-                        </svg>
-                        <span className="sr-only">LinkedIn page</span>
-                    </Link>
-                    
-                </div>
+                            {/* LeetCode */}
+                            <Link to="#" className="text-gray-500  dark:text-gray-800  hover:text-yellow-50 p-4">
+                                <svg
+                                    className="w-9 h-6"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    viewBox="0 0 16 25"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M 10.447266 0.265625 A 0.50005 0.50005 0 0 0 10.103516 0.41796875 L 5.65625 4.8671875 L 3.0957031 7.4257812 A 0.50005 0.50005 0 0 0 2.9785156 7.6035156 C 1.769869 8.9739016 1.7865696 11.063913 3.0957031 12.373047 L 5.65625 14.933594 C 7.0176322 16.294976 9.242133 16.294976 10.603516 14.933594 L 12.853516 12.683594 A 0.50063809 0.50063809 0 1 0 12.144531 11.976562 L 9.8945312 14.226562 C 8.9159134 15.20518 7.3418991 15.20518 6.3632812 14.226562 L 3.8027344 11.666016 C 2.8241166 10.687398 2.8241166 9.1114303 3.8027344 8.1328125 L 6.3632812 5.5742188 C 7.3418991 4.5956009 8.9159135 4.5956009 9.8945312 5.5742188 L 12.144531 7.8242188 A 0.50063784 0.50063784 0 1 0 12.853516 7.1171875 L 10.603516 4.8671875 C 9.9106907 4.174363 8.9943718 3.8431189 8.0820312 3.8554688 L 10.8125 1.125 A 0.50005 0.50005 0 0 0 10.447266 0.265625 z M 7.328125 9.4003906 A 0.50005 0.50005 0 1 0 7.328125 10.400391 L 14.228516 10.400391 A 0.50005 0.50005 0 1 0 14.228516 9.4003906 L 7.328125 9.4003906 z"
+                                        clip-rule="evenodd"
+                                    />
+                                </svg>
+
+                                <span className="sr-only">LeetCode page</span>
+                            </Link>
+                            {/* Discod */}
+                            <Link to="" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
+                                <svg
+                                    className="w-4 h-4"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 21 16"
+                                >
+                                    <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
+                                </svg>
+                                <span className="sr-only">Discord community</span>
+                            </Link>
+                            {/* twitter */}
+                            <Link to="https://x.com/SakshiKole72466?t=mmgrg-m_ngdRJtaUlrsorg&s=09" className="text-gray-800 dark:text-gray-900 p-4 hover:text-yellow-50">
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="currentColor" className="w-4 h-4" viewBox="0 0 50 50">
+                                    <path d="M 5.9199219 6 L 20.582031 27.375 L 6.2304688 44 L 9.4101562 44 L 21.986328 29.421875 L 31.986328 44 L 44 44 L 28.681641 21.669922 L 42.199219 6 L 39.029297 6 L 27.275391 19.617188 L 17.933594 6 L 5.9199219 6 z M 9.7167969 8 L 16.880859 8 L 40.203125 42 L 33.039062 42 L 9.7167969 8 z"></path>
+                                </svg>
+                                <span className="sr-only">Twitter page</span>
+                            </Link>
+                            {/* Github */}
+                            <Link to="https://github.com/Saksheekolekar
+                            ]
+                            
+                            " className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
+                                <svg
+                                    className="w-4 h-4"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 20 20"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                                        clip-rule="evenodd"
+                                    />
+                                </svg>
+                                <span className="sr-only">GitHub account</span>
+                            </Link>
+                            {/* Linkedin */}
+                            <Link to="https://www.linkedin.com/in/sakshi-kolekar-102511254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
+                                <svg
+                                    className="w-4 h-4"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.233c-.966 0-1.75-.785-1.75-1.75s.784-1.75 1.75-1.75 1.75.785 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.233h-3v-5.5c0-1.379-.021-3.154-1.923-3.154-1.924 0-2.221 1.501-2.221 3.05v5.604h-3v-10h2.88v1.366h.041c.401-.762 1.377-1.564 2.834-1.564 3.031 0 3.591 1.995 3.591 4.59v5.608z" />
+                                </svg>
+                                <span className="sr-only">LinkedIn page</span>
+                            </Link>
+
+                        </div>
                     </div>
 
                 </div>
@@ -262,7 +271,7 @@ export default function Footer() {
                         </Link> */}
                 {/* </div> */}
                 {/* </div> */}
-               
+
             </div>
 
         </footer>

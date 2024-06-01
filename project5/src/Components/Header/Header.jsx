@@ -11,14 +11,14 @@ export default function Header() {
 
     return (
         <>
-            <header className="sticky bg-transparenttop-0 z-50  mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <header className="sticky bg-transparenttop-0 z-50   mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <nav className="bg-slate-300 shadow-lg shadow-slate-800 hover:shadow-gray-50/80 rounded-2xl border-zinc-50 px-4 lg:px-6 py-2.5
                                 dark:bg-slate-500 dark:shadow-gray-50/45">
                     <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                         <Link to="/" className="flex items-center">
                             <img
                                 src="./dianno.jpg"
-                                className="h-12 border-b-2 shadow-lg shadow border-blue-400 rounded-3xl"
+                                className="h-12 border-b-2  shadow-lg shadow border-blue-400 rounded-3xl"
                                 alt="Logo"
                             />
                         </Link>

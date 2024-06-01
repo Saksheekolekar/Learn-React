@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useLoaderData } from 'react-router-dom'
+import { Link, useLoaderData } from 'react-router-dom'
 
 function Github() {
     // const data = useLoaderData()
@@ -21,6 +21,9 @@ function Github() {
             <div className='text-center '>
                 <h1 className='text-gray-950 text-5xl font-bold'>{data.name}</h1>
                 <p className='text-xl'>{data.bio}</p>
+                 <Link to="https://github.com/Saksheekolekar"><p className="mt-4 inline-block   bg-transparent shadow-lg border-2 
+                 border-double border-separate dark:border-zinc-600 text-zinc-500 dark:text-white py-2 px-4 rounded-lg" >
+                    for More↗️...</p></Link>
                 <br />
           
             </div>

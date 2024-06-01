@@ -20,7 +20,7 @@ const cardsData = [
       name:"Olpx",
       description: 'Educational Project,  functionality as  user can sell or buy products online. ',
       technologies: ['Java' ,'Jsp','Css','Js'],
-      link: 'https://github.com/project2'
+      link: 'https://github.com/Saksheekolekar/OLPX_Online_Product_Exchange_System'
     },
     {
       image: './wp.webp',
