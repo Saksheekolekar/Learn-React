@@ -5,7 +5,7 @@ import './App.css'
 import conf from './conf/config.js'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
   console.log(conf);
   return (
    <>

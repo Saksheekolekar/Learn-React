@@ -89,7 +89,7 @@ export default function Footer() {
                         </div>
                         <div className="  sm:m-5  col-span-2 mt-3 md:flex-row-reverse flex-row items-star  grid grid-cols-5 space-x-5">
                             {/* LeetCode */}
-                            <Link to="#" className="text-gray-500  dark:text-gray-800  hover:text-yellow-50 p-4">
+                            <Link to="https://leetcode.com/u/Sakshi_Kolekar" className="text-gray-500  dark:text-gray-800  hover:text-yellow-50 p-4">
                                 <svg
                                     className="w-9 h-6"
                                     aria-hidden="true"
@@ -109,7 +109,7 @@ export default function Footer() {
                                 <span className="sr-only">LeetCode page</span>
                             </Link>
                             {/* Discod */}
-                            <Link to="" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
+                            <Link to="https://discord.com/invite/apVVGTYA" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
                                 <svg
                                     className="w-4 h-4"
                                     aria-hidden="true"
