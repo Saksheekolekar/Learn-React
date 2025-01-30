@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 function SideBar ({ isOpen, toggleSidebar }) {
   return ( 
     <>
-     <div className= {`lg:hidden  fixed inset-y-0 right-0 transform ${isOpen ? 'translate-x-full' : '-translate-x-0'} over transition-transform duration-300 ease-in-out bg-slate-400  bg-opacity-80 dark:bg-gray-800 dark:bg-opacity-80  dark:text-white w-64`}>
+     <div className= {`lg:hidden  fixed inset-y-0 right-0 transform ${isOpen ? 'translate-x-full' : '-translate-x-0'} over transition-transform duration-300 ease-in-out bg-slate-400  bg-opacity-90 dark:bg-gray-800 dark:bg-opacity-95  dark:text-white font-oswald font-bold w-full `}>
       <div className=" relative justify-end text-right p-4 ">
         <button className="focus:outline-dotted bg-transparent shadow-md  " onClick={toggleSidebar}>
           <svg className="w-6 h-6 stroke-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
