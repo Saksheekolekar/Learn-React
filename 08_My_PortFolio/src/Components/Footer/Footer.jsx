@@ -16,12 +16,12 @@ export default function Footer() {
                                 src="./img/dianno.jpg"
                                 className="mr-3 h-16  rounded-3xl"
                                 alt="Logo"
-            
-            />
+
+                            />
                             <h1 className='font-oswald bg-transparent rounded text-2xl text-black h-auto w-full  shadow-sm bg-none'> 🎯Sakshee Kolekar !</h1>
                         </Link>
                     </div>
-                    <div className="grid grid-cols-2  bg-center text-center row-2 gap-10    ">
+                    <div className="grid grid-cols-2  bg-center text-center row-3 gap-10    ">
                         {/* <div className="border-r-2  border-dashed ">
                             <h2 className="mb-6 text-sm  font-Embed_code text-gray-900   underline uppercase">Languages</h2>
                             <ul className="text-gray-500 font-oswald ">
@@ -61,33 +61,38 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-Embed_code dark:text-white  text-slate-800 underline uppercase">Other  projects </h2>
                             <ul className="text-gray-600 dark:text-slate-800 font-oswald">
                                 <li className="mb-4">
-                                    <Link target='_blank' to="#" className="hover:underline">
+                                    <Link target='_blank' to="https://github.com/Saksheekolekar/Web-Technology/blob/main/TicTackToeGame.html" className="hover:underline">
                                         Tic-Tack-toe Game
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link target='_blank'  to="https://github.com/Saksheekolekar/portfolio" className="hover:underline">
-                                        My Portfolio website
+                                <li className="mb-4">
+                                    <Link target='_blank' to="https://github.com/Saksheekolekar/Web-Technology/blob/main/calci.html" className="hover:underline">
+                                        Scientific Calculator
                                     </Link>
                                 </li>
                                 
+                                <li>
+                                    <Link target='_blank' to="https://github.com/Saksheekolekar/Web-Technology/blob/main/ToDoList.java" className="hover:underline">
+                                       To-Do List
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                         <div className=" ">
                             <h2 className="mb-6 text-sm dark:text-white font-Embed_code text-slate-800 underline uppercase">Certifications</h2>
                             <ul className="text-gray-600 dark:text-slate-800 font-oswald">
                                 <li className="mb-4">
-                                    <Link target='_blank' to="/" className="hover:underline">
+                                    <Link target='_blank' to="https://drive.google.com/file/d/1S45sN4ExxoidbsWyaXCq0WnHDUS8KmSk/view?pli=1" className="hover:underline">
                                         Java-Full Stack
                                     </Link>
                                 </li>
-                                <li>
+                                <li className="mb-4">
                                     <Link target='_blank' to="/about" className="hover:underline">
                                         Internship
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link target='_blank' to="/about" className="hover:underline">
+                                    <Link target='_blank' to="https://drive.google.com/file/d/1-lUXi1nl8jpqvS0rXN_UbAlzNK4Nle2K/view" className="hover:underline">
                                         National Quiz Competition
                                     </Link>
                                 </li>
@@ -115,7 +120,7 @@ export default function Footer() {
                                 <span className="sr-only">LeetCode page</span>
                             </Link>
                             {/* Discod */}
-                            <Link target='_blank' to="https://discord.com/invite/apVVGTYA" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
+                            <Link target='_blank' to="https://discord.com/invite/G5kyHMeeD5" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
                                 <svg
                                     className="w-4 h-4"
                                     aria-hidden="true"
@@ -135,10 +140,7 @@ export default function Footer() {
                                 <span className="sr-only">Twitter page</span>
                             </Link>
                             {/* Github */}
-                            <Link target='_blank' to="https://github.com/Saksheekolekar
-                            ]
-                            
-                            " className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
+                            <Link target='_blank' to="https://github.com/Saksheekolekar" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
                                 <svg
                                     className="w-4 h-4"
                                     aria-hidden="true"

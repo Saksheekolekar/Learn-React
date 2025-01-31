@@ -9,39 +9,34 @@ import CardContainer from "./Components/CardContainers/CardContainers";
 
 const cardsData = [
     {
-      image: './img/p.jpg  ',
+      image: './img/class.jpg  ',
       name:"Eduverse",
-      description: 'Blogging Application for the exploring new Aeticles.',
-      technologies: ['React.js', 'Tailwind CSS','Appwrite'],
-      link: 'https://github.com/project1'
+      description: ' Scalable Education Management System',
+      technologies: ["Angular",  "Spring Boot", "RESTful APIs", "MySQL", "Hibernate"],
+      link: 'https://github.com/Saksheekolekar/Eduverse'
     },
     {
       image: './img/pack.jpg',
       name:"Olpx",
-      description: 'Educational Project,  functionality as  user can sell or buy products online. ',
-      technologies: ['Java' ,'Jsp','Css','Js'],
+      description: 'Online Product Exchange System (Educational Project)',
+      technologies: ["Java", "JSP", "JDBC", "PostgreSQL", "Bootstrap", "Spring Boot", "Hibernate", "React"],
       link: 'https://github.com/Saksheekolekar/OLPX_Online_Product_Exchange_System'
     },
     {
-      image: './img/wp.webp',
-      name:"What's App Clone",
-      description: "practice project.clone of very famous chat application.",
-      technologies: ['React', 'Tailwind CSS'],
-      link: 'https://github.com/project3'
+      image: './img/p.jpg',
+      name:"LetsWrite",
+      description: "A Full-Stack Blogging Application",
+      technologies: ["React", "Appwrite", "React Router", "Redux Toolkit", "Tailwind CSS", "TinyMCE", "HTML-React-Parser", "React Hook Form"]
+      ,
+      link: 'https://github.com/Saksheekolekar/Learn-React/tree/main/11_LetsWrite'
     },{
-        image: './img/amazone.png',
-        name:"Amazon Clone",
-        description: 'E-Commerce website with variety of products.',
-        technologies: ['React', 'Tailwind CSS'],
-        link: 'https://github.com/project2'
+        image: './img/dianno.jpg',
+        name:"Personal Portfolio Website",
+        description: 'Built a responsive portfolio website using React with Formspree for contact form submissions.',
+        technologies: ["React", "Tailwind CSS", "Redux", "Formspree"]        ,
+        link: 'https://github.com/Saksheekolekar/Learn-React/tree/main/08_My_PortFolio'
       },
-      {
-        image: './img/UTUBE.jpg',
-        name:"YouTube Clone",
-        description: 'Social Media platform for Learning and Earning Purpose',
-        technologies: ['React', 'Tailwind CSS'],
-        link: 'https://github.com/project3'
-      },
+      
     // Add more cards as needed
   ];
 function Layout() {

@@ -1,14 +1,25 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink,useNavigate  } from 'react-router-dom';
 import SideBar from '../Sidebar/SideBar';
 
 export default function Header() {
     const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+    const navigate = useNavigate(); 
 
     const toggleSidebar = () => {
         setIsSidebarOpen(!isSidebarOpen);
-    };
-
+    }; 
+    const handleClick = (e) => {
+        // Prevent default behavior of the Link
+        e.preventDefault();
+    
+        // Show the alert box
+        alert("Please provide your contact details and reason for viewing my resume. Once received, I will share it with you through the contact form. Thank you.");
+    
+        // Navigate to the contact page after the user clicks OK
+        navigate("/contact");
+      };
+      
     return (
         <>
             <header className="sticky bg-transparenttop-0 z-50   mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -26,8 +37,10 @@ export default function Header() {
                             <Link
                                 to="#"
                                 className="text-white underline bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+                                onClick={handleClick}
                             >
                                 Download Resume!
+                               
                             </Link>
                         </div>
                         <div className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
