@@ -13,7 +13,7 @@ export default function Footer() {
                     <div className="  mb-6 md:mb-0">
                         <Link className="flex items-center ">
                             <img
-                                src="./dianno.jpg"
+                                src="./img/dianno.jpg"
                                 className="mr-3 h-16  rounded-3xl"
                                 alt="Logo"
             
@@ -61,35 +61,41 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-Embed_code dark:text-white  text-slate-800 underline uppercase">Other  projects </h2>
                             <ul className="text-gray-600 dark:text-slate-800 font-oswald">
                                 <li className="mb-4">
-                                    <Link to="#" className="hover:underline">
+                                    <Link target='_blank' to="#" className="hover:underline">
                                         Tic-Tack-toe Game
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="https://github.com/Saksheekolekar/portfolio" className="hover:underline">
+                                    <Link target='_blank'  to="https://github.com/Saksheekolekar/portfolio" className="hover:underline">
                                         My Portfolio website
                                     </Link>
                                 </li>
+                                
                             </ul>
                         </div>
                         <div className=" ">
                             <h2 className="mb-6 text-sm dark:text-white font-Embed_code text-slate-800 underline uppercase">Certifications</h2>
                             <ul className="text-gray-600 dark:text-slate-800 font-oswald">
                                 <li className="mb-4">
-                                    <Link to="/" className="hover:underline">
+                                    <Link target='_blank' to="/" className="hover:underline">
                                         Java-Full Stack
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/about" className="hover:underline">
+                                    <Link target='_blank' to="/about" className="hover:underline">
                                         Internship
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link target='_blank' to="/about" className="hover:underline">
+                                        National Quiz Competition
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="  sm:m-5  col-span-2 mt-3 md:flex-row-reverse flex-row items-star  grid grid-cols-5 space-x-5">
                             {/* LeetCode */}
-                            <Link to="https://leetcode.com/u/Sakshi_Kolekar" className="text-gray-500  dark:text-gray-800  hover:text-yellow-50 p-4">
+                            <Link target='_blank' to="https://leetcode.com/u/Sakshi_Kolekar" className="text-gray-500  dark:text-gray-800  hover:text-yellow-50 p-4">
                                 <svg
                                     className="w-9 h-6"
                                     aria-hidden="true"
@@ -109,7 +115,7 @@ export default function Footer() {
                                 <span className="sr-only">LeetCode page</span>
                             </Link>
                             {/* Discod */}
-                            <Link to="https://discord.com/invite/apVVGTYA" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
+                            <Link target='_blank' to="https://discord.com/invite/apVVGTYA" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
                                 <svg
                                     className="w-4 h-4"
                                     aria-hidden="true"
@@ -122,14 +128,14 @@ export default function Footer() {
                                 <span className="sr-only">Discord community</span>
                             </Link>
                             {/* twitter */}
-                            <Link to="https://x.com/SakshiKole72466?t=mmgrg-m_ngdRJtaUlrsorg&s=09" className="text-gray-800 dark:text-gray-900 p-4 hover:text-yellow-50">
+                            <Link target='_blank' to="https://x.com/SakshiKole72466?t=mmgrg-m_ngdRJtaUlrsorg&s=09" className="text-gray-800 dark:text-gray-900 p-4 hover:text-yellow-50">
                                 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="currentColor" className="w-4 h-4" viewBox="0 0 50 50">
                                     <path d="M 5.9199219 6 L 20.582031 27.375 L 6.2304688 44 L 9.4101562 44 L 21.986328 29.421875 L 31.986328 44 L 44 44 L 28.681641 21.669922 L 42.199219 6 L 39.029297 6 L 27.275391 19.617188 L 17.933594 6 L 5.9199219 6 z M 9.7167969 8 L 16.880859 8 L 40.203125 42 L 33.039062 42 L 9.7167969 8 z"></path>
                                 </svg>
                                 <span className="sr-only">Twitter page</span>
                             </Link>
                             {/* Github */}
-                            <Link to="https://github.com/Saksheekolekar
+                            <Link target='_blank' to="https://github.com/Saksheekolekar
                             ]
                             
                             " className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
@@ -149,7 +155,7 @@ export default function Footer() {
                                 <span className="sr-only">GitHub account</span>
                             </Link>
                             {/* Linkedin */}
-                            <Link to="https://www.linkedin.com/in/sakshi-kolekar-102511254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
+                            <Link target='_blank' to="https://www.linkedin.com/in/sakshi-kolekar-102511254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-500 dark:text-gray-800 p-4 hover:text-yellow-50">
                                 <svg
                                     className="w-4 h-4"
                                     aria-hidden="true"
@@ -177,7 +183,7 @@ export default function Footer() {
                         . All Rights Reserved.
                     </span>
                     <div className="flex flex-row items-start space-x-5">
-                        <Link to="#" className="text-gray-500 hover:text-yellow-50 p-4">
+                        <Link  to="#" className="text-gray-500 hover:text-yellow-50 p-4">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"

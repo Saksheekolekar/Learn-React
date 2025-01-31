@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../Card/Card';
 /// src/components/CardContainer.js
-import  { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 
 const CardContainer = ({ cards }) => {
@@ -9,15 +9,15 @@ const CardContainer = ({ cards }) => {
   const [currentIndex, setCurrentIndex] = useState(1);
 
   const handleScroll = () => {
-    
-    const container = containerRef.current; 
-   
+
+    const container = containerRef.current;
+
     const scrollPosition = container.scrollLeft + container.offsetWidth / 58;
-    
+
     const cardWidth = container.children[0].offsetWidth;
-    
+
     const newIndex = Math.round(scrollPosition / cardWidth);
-    
+
     setCurrentIndex(newIndex);
   };
 
@@ -29,7 +29,7 @@ const CardContainer = ({ cards }) => {
 
   return (
     <div className="relative  bg-slate-600 mt-4  dark:bg-opacity-100 bg-opacity-30">
-        <h1 className='text-2xl text-center font-Embed_code dark:bg-transparent underline dark:text-slate-50  bg-transparent bg-opacity-50 '> Some Highlight Projects</h1>
+      <h1 className='text-2xl text-center font-Embed_code dark:bg-transparent underline dark:text-slate-50  bg-transparent bg-opacity-50 '> Some Highlight Projects</h1>
 
       <div
         ref={containerRef}
