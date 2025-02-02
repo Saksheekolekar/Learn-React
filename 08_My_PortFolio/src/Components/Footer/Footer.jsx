@@ -87,8 +87,8 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link target='_blank' to="/about" className="hover:underline">
-                                        Internship
+                                    <Link target='_blank' to="https://www.udemy.com/certificate/UC-c31c420d-a36a-412c-8167-6c205d5c3ce2/" className="hover:underline">
+                                        Udemy Certificate
                                     </Link>
                                 </li>
                                 <li>
