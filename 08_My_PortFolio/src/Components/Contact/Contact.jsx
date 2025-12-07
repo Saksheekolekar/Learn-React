@@ -39,7 +39,7 @@ export default function Contact() {
         e.preventDefault();
         if (!validateForm()) return;
 
-        const response = await fetch("https://formspree.io/f/xzzdgzng", {
+        const response = await fetch("https://formspree.io/f/xjknegyn", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(formData),
